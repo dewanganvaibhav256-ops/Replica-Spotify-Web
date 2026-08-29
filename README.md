@@ -31,8 +31,6 @@ A simple and responsive **Spotify Web Player UI Replica** built using **HTML and
 ## 🖼️ Sample Images
 <img width="1915" height="1077" alt="Sample_Image1" src="https://github.com/user-attachments/assets/a5109190-b811-413c-bc7c-7fc44ba0fbde" />
 
-<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/356c0863-1289-47bf-a124-a9c87eafc9f0" />
-
 ## 📂 Project Structure
 
 ```text
