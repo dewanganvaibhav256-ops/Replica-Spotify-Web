@@ -51,5 +51,3 @@ Replica-Spotify-Web/
 │   ├── card6img.jpeg
 │   ├── card7img.jpeg
 │   └── card8img.jpeg
-│
-└── images/
