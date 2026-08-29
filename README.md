@@ -1,4 +1,4 @@
-<img width="1915" height="1077" alt="image" src="https://github.com/user-attachments/assets/8cf8af7c-4677-4349-ac03-f590fdcbf428" /># 🎵 Spotify Web Replica
+# 🎵 Spotify Web Replica
 
 A simple and responsive **Spotify Web Player UI Replica** built using **HTML and CSS**. This project recreates the visual appearance of Spotify's web interface, including the sidebar, navigation area, music cards, and music player.
 
