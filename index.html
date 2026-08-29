@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="./Content/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav_option" style="opacity: 1">
+            <i class="bi bi-house-door-fill"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav_option">
+            <i class="bi bi-search"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="options">
+            <div class="lib-options">
+              <img src="./Content/library_icon.png" alt="" />
+              <a href="#">Your Library</a>
+              <i class="bi bi-plus"></i>
+              <i class="bi bi-arrow-right"></i>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box1">
+              <p class="bold-box">Create your first playlist</p>
+              <p class="bold-box2">It's easy, we'll help you</p>
+              <button>Create playlist</button>
+            </div>
+            <div class="box2">
+              <p class="bold-box2_1">Let's find some podcasts to follow</p>
+              <p class="bold-box2_2">We'll keep you updated on new episodes</p>
+              <button>Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="music_player">
+        <div class="album">
+          <img src="./Content/card7img.jpeg" alt="">
+          <div class="album_o">
+            <p>Barsaat</p>
+            <p class="info">Banjaare</p>
+          </div>
+          <div class="album_icons">
+            <i class="bi bi-heart"></i>
+            <i class="bi bi-cast"></i>
+          </div>
+        </div>
+        <div class="player">
+          <div class="player-controls">
+            <img src="./Content/player_icon1.png" alt="">
+            <img src="./Content/player_icon2.png" alt="">
+            <img src="./Content/player_icon3.png" style="height: 2rem;width: 2rem;" alt="">
+            <img src="./Content/player_icon4.png" alt="">
+            <img src="./Content/player_icon5.png" alt="">
+          </div>
+          <div class="range">
+            <label for="ra">0:00</label>
+            <input type="range" id="ra">
+            <label for="ra">3:42</label>
+          </div>
+        </div>
+        <div class="controls">
+          <div class="controls_icons">
+            <i class="bi bi-file-play"></i>
+            <i class="bi bi-mic"></i>
+            <i class="bi bi-collection-play"></i>
+            <i class="bi bi-pc-display"></i>
+            <i class="bi bi-volume-up-fill"></i>
+            <input type="range">
+          </div>
+        </div>
+      </div>
+      <div class="main_content">
+        <div class="sticky-nav">
+          <div class="fd_icon">
+            <img src="./Content/backward_icon.png" alt="" />
+            <img src="./Content/forward_icon.png" alt="" />
+          </div>
+          <div class="login_info">
+            <button class="explore">Explore Premium</button>
+            <button class="install_app">
+              <i class="bi bi-arrow-down-circle"></i>Install app
+            </button>
+            <i style="font-size: 1.5rem" class="bi bi-person-circle"></i>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="cards">
+          <h2>Recently Played</h2>
+          <div class="cards_container">
+            <div class="card1">
+              <img src="./Content/card1img.jpeg" alt="" />
+              <p class="card-title">Top 50-Global</p>
+              <p class="card-info">
+                Your daily update of the most played tracks right..
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="head2">
+          <h2>Spotify original & exclusive podcasts</h2>
+          <h2 class="show">Show all</h2>
+        </div>
+        <div class="cards-containers2">
+          <div class="cards2">
+            <img src="./Content/card2img.jpeg" alt="" />
+            <p class="card-title2">Mahiye Jinna Sohna</p>
+            <p class="card-info2">Darshan Raval</p>
+          </div>
+          <div class="cards2">
+            <img src="./Content/card3img.jpeg" alt="" />
+            <p class="card-title2">Mere Pass Tum Ho</p>
+            <p class="card-info2">Silent Oceam</p>
+          </div>
+          <div class="cards2">
+            <img src="./Content/card4img.jpeg" alt="" />
+            <p class="card-title2">Naa Ready</p>
+            <p class="card-info2">Lokesh Kanagaraj, Anirudh Ravichander</p>
+          </div>
+          <div class="cards2">
+            <img src="./Content/card5img.jpeg" alt="" />
+            <p class="card-title2">Top Songs Global</p>
+            <p class="card-info2">Your weekly update of most played...</p>
+          </div>
+          <div class="cards2">
+            <img src="./Content/card7img.jpeg" alt="" />
+            <p class="card-title2">Barsaat</p>
+            <p class="card-info2">Banjaare</p>
+          </div>
+          <div class="cards2">
+            <img src="./Content/card8img.jpeg" alt="" />
+            <p class="card-title2">Arz kiya ha</p>
+            <p class="card-info2">Anuv Jain</p>
+          </div>
+        </div>
+        <div class="head2">
+          <h2>Featured Charts</h2>
+          <h2 class="show">Show all</h2>
+        </div>
+        <div class="cards-containers2">
+          <div class="cards2">
+            <img src="./Content/card5img.jpeg" alt="" />
+            <p class="card-title2">Top Songs Global</p>
+            <p class="card-info2">Your weekly update of most played...</p>
+          </div>
+          <div class="cards2">
+            <img src="./Content/card6img.jpeg" alt="" />
+            <p class="card-title2">Top Songs India</p>
+            <p class="card-info2">Your weekly update of most played...</p>
+          </div>
+          <div class="cards2">
+            <img src="./Content/card1img.jpeg" alt="" />
+            <p class="card-title2">Top 50-Global</p>
+            <p class="card-info2">
+              Your daily update of the most played tracks right..
+            </p>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
