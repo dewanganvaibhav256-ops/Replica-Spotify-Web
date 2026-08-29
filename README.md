@@ -25,7 +25,7 @@ A simple and responsive **Spotify Web Player UI Replica** built using **HTML and
 - HTML5
 - CSS3
 - Google Fonts
-- Font Awesome Icons
+- BootStrap Icons
 
 ---
 
