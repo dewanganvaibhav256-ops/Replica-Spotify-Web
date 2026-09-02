@@ -40,7 +40,7 @@ Replica-Spotify-Web/
 ├── style.css
 ├── README.md
 │
-├── assets/
+├── Content/
 │   ├── logo.png
 │   ├── library_icon.png
 │   ├── backward_icon.png
